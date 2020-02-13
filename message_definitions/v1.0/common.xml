@@ -5442,6 +5442,7 @@
     <message id="229" name="MPC_COMMAND">
       <description>MPC command.</description>
       <field type="uint64_t" name="time_usec" units="us"></field>
+      <field type="int32_t" name="flag"></field>
       <field type="float" name="thrust"> </field>
       <field type="float" name="tilt_angle"> </field>
       <field type="float" name="torque_x"> </field>
