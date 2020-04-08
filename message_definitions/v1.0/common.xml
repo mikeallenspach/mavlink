@@ -5443,6 +5443,7 @@
       <description>MPC command.</description>
       <field type="uint64_t" name="time_usec" units="us"></field>
       <field type="int32_t" name="flag"></field>
+      <field type="float[4]" name="q">Quaternion components, w, x, y, z (1 0 0 0 is the null-rotation)</field>
       <field type="float" name="thrust"> </field>
       <field type="float" name="tilt_angle"> </field>
       <field type="float" name="torque_x"> </field>
